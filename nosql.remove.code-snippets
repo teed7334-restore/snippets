@@ -1,0 +1,14 @@
+{
+	"NoSQL_Remove": {
+		"prefix": "nosql.remove",
+		"scope": "javascript",
+		"body": [
+			"const ${1:whereCond} = {",
+			"    id: ${2:params}.id,",
+			"    ${3:/** todo **/}",
+			"}",
+			"const ${4:document} = await db.collection('${4:document}').remove(${1:whereCond});"
+		],
+		"description": "NoSQL Remove"
+	},
+}

@@ -1,0 +1,13 @@
+{
+	"NoSQL_Add": {
+		"prefix": "nosql.add",
+		"scope": "javascript",
+		"body": [
+			"const ${1:insertCond} = {",
+			"    ${2:/** todo **/}",
+			"}",
+			"const ${3:document} = await db.collection('${4:document}').insert(${1:insertCond});"
+		],
+		"description": "NoSQL Add"
+	},
+}

@@ -1,0 +1,13 @@
+{
+	"SQL_Add": {
+		"prefix": "sql.add",
+		"scope": "javascript",
+		"body": [
+			"const ${1:insertCond} = {",
+			"    ${2:/** todo **/}",
+			"}",
+			"const ${3:model} = await ${4:Model}.create(${1:insertCond}).fetch();"
+		],
+		"description": "SQL Add"
+	},
+}

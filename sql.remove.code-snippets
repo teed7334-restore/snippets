@@ -1,0 +1,14 @@
+{
+	"SQL_Remove": {
+		"prefix": "sql.remove",
+		"scope": "javascript",
+		"body": [
+			"const ${1:whereCond} = {",
+			"    id:${2:params}.id,",
+			"    ${3:/** todo **/}",
+			"}",
+			"const ${4:model} = await ${5:Model}.destroy(${1:whereCond}).fetch();"
+		],
+		"description": "SQL Remove"
+	},
+}

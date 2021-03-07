@@ -1,0 +1,14 @@
+{
+	"NoSQL_Find": {
+		"prefix": "nosql.find",
+		"scope": "javascript",
+		"body": [
+			"const whereCond = {",
+			"    id: ${1:params}.id,",
+			"    ${2:/** todo **/}",
+			"}",
+			"const ${3:document} = await db.collection('${3:document}').find(${1:whereCond}).toArray()"
+		],
+		"description": "NoSQL Find"
+	},
+}

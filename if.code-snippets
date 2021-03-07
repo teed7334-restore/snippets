@@ -1,0 +1,12 @@
+{
+	"IF": {
+		"prefix": "if",
+		"scope": "javascript",
+		"body": [
+			"if (${1:compare} ${2:===} ${3:compared}) {",
+			"    ${4:/** todo **/}",
+			"}"
+		],
+		"description": "IF"
+	},
+}
