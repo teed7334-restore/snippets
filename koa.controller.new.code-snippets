@@ -1,0 +1,28 @@
+{
+	"Koa_Controller_New": {
+		"prefix": "koa.controller.new",
+		"scope": "javascript",
+		"body": [
+			"exports = module.exports = function (app) {",
+			"    const Joi = require('joi')",
+			"    const log4js = require('log4js')",
+			"    const Log = log4js.getLogger()",
+			"",
+			"    const {",
+			"        JoiValidator",
+			"    } = require('../lib')",
+			"",
+			"    const RequestSchema = {}",
+			"    const validate = JoiValidator(RequestSchema, Log)",
+			"",
+			"    class Controller {}",
+			"    const prop = Controller.prototype",
+			"",
+			"    /** todo **/",
+			"",
+			"    return new Controller()",
+			"}"
+		],
+		"description": "Koa Controller New"
+	},
+}
