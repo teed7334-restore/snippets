@@ -7,7 +7,7 @@
 			"    /** todo **/",
 			"})",
 			"prop.${1:add} = async (ctx) => {",
-			"    const { value, message } = validate('${1:add}', ctx.${2:ctx.request.body|ctx.query})",
+			"    const { value, message } = validate('${1:add}', ${2:ctx.request.body})",
 			"",	
 			"    try {",
 			"",
